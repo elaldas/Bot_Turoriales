@@ -39,3 +39,10 @@ client.on("ready", async () => {
         console.error(`» | Error al cargar los comandos => ${err}`));
     console.log(`» | Bot encendido con la cuenta de: ${client.user.tag}`)
 })
+
+/*
+╔═══════════════════════════════════════════════════╗
+║  || - ||   Código por ALDA#8939/el_alda   || - |  ║
+║     --|   https://discord.gg/JpKGJFZCzK    |--    ║
+╚═══════════════════════════════════════════════════╝
+*/
