@@ -15,3 +15,10 @@ module.exports = {
 		interaction.reply({ embeds: [embed] })
 	}
 }
+
+/*
+╔═══════════════════════════════════════════════════╗
+║  || - ||   Código por ALDA#8939/el_alda   || - |  ║
+║     --|   https://discord.gg/JpKGJFZCzK    |--    ║
+╚═══════════════════════════════════════════════════╝
+*/
