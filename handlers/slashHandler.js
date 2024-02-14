@@ -15,3 +15,10 @@ module.exports = {
 		await client.application?.commands.set(client.slashCommands.map((x) => x));
 	},
 };
+
+/*
+╔═══════════════════════════════════════════════════╗
+║  || - ||   Código por ALDA#8939/el_alda   || - |  ║
+║     --|   https://discord.gg/JpKGJFZCzK    |--    ║
+╚═══════════════════════════════════════════════════╝
+*/
