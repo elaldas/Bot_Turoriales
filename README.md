@@ -7,5 +7,6 @@ Puedes instalar estos packages en tu editor usando `npm install <package>` sin l
 
  - discord.js
  - dotenv
+ - node-fetch@2
 
 [Para ayuda o soporte, dale a este link](https://discord.gg/JpKGJFZCzK)
