@@ -38,3 +38,10 @@ module.exports = {
 		await interaction.reply({ content: "El banner ha sido cambiado con exito" })
 	}
 }
+
+/*
+╔═══════════════════════════════════════════════════╗
+║  || - ||   Código por ALDA#8939/el_alda   || - |  ║
+║     --|   https://discord.gg/JpKGJFZCzK    |--    ║
+╚═══════════════════════════════════════════════════╝
+*/
