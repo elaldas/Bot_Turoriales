@@ -4,6 +4,7 @@ Proyecto de un bot  en construcción, que se anda haciendo a base, que continúa
 #**Package Usados:**
 
 #**Puedes instalar estos packages en la terminal de tu editor de código escribiendo:**
+
 Uso: `npm install <package>`
 Nota: Escribelo sin los <>.
 Ejemplo `npm install discord.js`
