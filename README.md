@@ -13,4 +13,5 @@ Proyecto de un bot en construcción, que se anda realizando en mi [canal](https:
  - @iamtraction/google-translate
 
 [Para ayuda o soporte, dale a este link](https://discord.gg/JpKGJFZCzK)
+
 [Donaciones Paypal](https://www.paypal.com/paypalme/elaldas)
