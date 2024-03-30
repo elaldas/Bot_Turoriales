@@ -11,6 +11,7 @@ Proyecto de un bot en construcción, que se anda realizando en mi [canal](https:
  - dotenv
  - node-fetch@2
  - @iamtraction/google-translate
+ - mongoose
 
 [Para ayuda o soporte, dale a este link](https://discord.gg/JpKGJFZCzK)
 
