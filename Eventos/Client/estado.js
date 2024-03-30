@@ -1,10 +1,18 @@
 const { ActivityType } = require("discord.js")
+const mongoose = require("mongoose")
 
 module.exports = {
 	name: "ready",
 	once: true,
 
 	async execute(client, interaction){
+
+		await mongoose.connect((process.env.MONGODB), {
+		}).then(() => {
+			console.log("» |  Conectado a la base de datos")
+		}).catch(err => {
+			console.log("» | No Se puede conectar a la base de datos")
+		})
 
 		console.log("» | Estado cargado con exito")
 
