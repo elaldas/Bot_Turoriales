@@ -1,0 +1,33 @@
+name: Format code
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  format:
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Setup Biome
+        uses: biomejs/setup-biome@v2
+
+      - name: Check code
+        run: biome check --write .
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
