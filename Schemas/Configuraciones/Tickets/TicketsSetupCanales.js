@@ -1,23 +1,22 @@
-const { model, Schema } = require("mongoose")
+const { model, Schema } = require("mongoose");
 
 const canales = new Schema({
-
 	ServerID: {
 		type: String,
-		required: true
+		required: true,
 	},
 	Canal: {
 		type: String,
-		required: true
+		required: true,
 	},
 	AuthorID: {
 		type: String,
-		required: true
+		required: true,
 	},
 	Cerrado: {
 		type: String,
-		required: true
-	}
-})
+		required: true,
+	},
+});
 
-module.exports = model("TicketsSetupCanales", canales)
+module.exports = model("TicketsSetupCanales", canales);
